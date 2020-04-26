@@ -1,0 +1,6 @@
+
+docker build --file api/docker/production/nginx/Dockerfile --tab $REGISTRY/auction_nginx:$IMAGE_TAG
+
+docker push $REGISTRY/auction_nginx:$IMAGE_TAG
+
+docker push
